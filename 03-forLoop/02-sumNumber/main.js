@@ -20,7 +20,7 @@ for (let i = 1; i <= 100; i++) {
     oddSum += i;
   }
   if (i % 3 === 0) {
-    sumOfCanDividedByThreeWithPow += Math.pow(i, 3);
+    sumOfCanDividedByThreeWithPow += Math.pow(i, 2);
   }
 }
 sumOfMess = sumOfCanDividedByTwoWithPow - sumOfCanDividedByThreeWithPow;
