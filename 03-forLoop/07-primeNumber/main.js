@@ -6,6 +6,8 @@ for (let i = 1; i <= 100; i++) {
     if (i % j === 0) {
       count++;
     }
+
+    if (i === j) break;
   }
   if (i !== 1 && count <= 2) console.log(i);
 }
